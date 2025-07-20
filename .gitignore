@@ -1,0 +1,63 @@
+# === General ===
+node_modules/
+.env
+.env.*.local
+.DS_Store
+*.log
+*.tgz
+*.bak
+*.tmp
+
+# === Backend (server) ===
+/server/node_modules/
+/server/dist/
+/server/.env
+/server/coverage/
+/server/debug.log
+/server/jest-test-results.json
+
+# === Frontend (client) ===
+/client/node_modules/
+/client/build/
+/client/.env
+/client/.env.*.local
+/client/coverage/
+/client/public/env.js
+/client/yarn.lock
+/client/npm-debug.log
+/client/.parcel-cache/
+/client/.next/
+/client/.turbo/
+
+# === OS / Editor junk ===
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+Thumbs.db
+ehthumbs.db
+
+# === Testing ===
+/coverage/
+/test-results/
+/*.test.js
+
+# === Logs ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Build ===
+build/
+dist/
+.cache/
+tmp/
+out/
+
+# === Mongo Memory Server (used in testing) ===
+mongo-memory-server-*.db

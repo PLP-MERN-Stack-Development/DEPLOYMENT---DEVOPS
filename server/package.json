@@ -1,0 +1,37 @@
+{
+  "name": "bug-tracker-backend",
+  "version": "1.0.0",
+  "description": "MERN Bug Tracker Backend",
+  "main": "src/server.js",
+  "keywords": [
+    "bug",
+    "tracker",
+    "MERN",
+    "backend"
+  ],
+  "author": "Mohammed Mbarak",
+  "license": "ISC",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "debug": "node --inspect src/server.js",
+    "start:prod": "NODE_ENV=production node src/server.js",
+    "build": "echo 'No frontend build needed for backend only project'",
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "mongodb-memory-server": "^10.1.4",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.3"
+  }
+}
