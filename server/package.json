@@ -17,7 +17,8 @@
     "debug": "node --inspect src/server.js",
     "start:prod": "NODE_ENV=production node src/server.js",
     "build": "echo 'No frontend build needed for backend only project'",
-    "test": "jest --runInBand --detectOpenHandles --forceExit"
+    "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "lint": "echo 'No linting configured for backend.'"
   },
   "dependencies": {
     "@sentry/integrations": "^7.114.0",
